@@ -34,7 +34,7 @@ const productos =
         id: 4,
         nombre: "Café Bolivia",
         tipo: "café",
-        desc: "Con notas florales a flor de azar y jazmín, una acidez característica del pacamara con notas a lima y frutos rojos y un final dulce predominante con notas a durazno y vainilla.",
+        desc: "Una acidez con notas a lima y frutos rojos y un final dulce predominante con notas a durazno y vainilla.",
         precio: 12000,
         imagen: './public/images/bolivia.jpg',
         cantidad:1
@@ -54,7 +54,7 @@ const productos =
         id: 6,
         nombre: "Café Nariño",
         tipo: "café",
-        desc: "Este café nos presenta una taza delicada, con cuerpo bajo y notas florales a Jazmín y Earl gray, con un final dulce que nos recuerda al Durazno y la Miel. Dejando un retrogusto en boca prolongado.",
+        desc: "Este café presenta un final dulce que nos recuerda al Durazno y la Miel. Dejando un retrogusto en boca prolongado.",
         precio: 7500,
         imagen: './public/images/colombia.jpg',
         cantidad:1

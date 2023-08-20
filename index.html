@@ -25,14 +25,20 @@
 <body>
 
   <header>
-    <h1>TIENDA JS</h1>
+    <button id="cesta-carrito"><i class="fas fa-shopping-cart"></i><span id="contador-carrito">0</span></button>
+    <img src="./public/images/2.png">
+    <div class="link">
     <a href="./index.html">TIENDA</a>
     <a href="#contacto">CONTACTO</a>
-    <button id="cesta-carrito"><i class="fas fa-shopping-cart"></i><span id="contador-carrito">0</span></button>
-  </header>
-  <h1>TIENDA</h1>
-  <main id="producto-contenedor">
+  </div>
     
+  </header>
+  <div class="tienda">
+  <h2>TIENDA</h2>
+
+  </div>
+
+  <main id="producto-contenedor"> 
 
   </main>
 
@@ -51,6 +57,7 @@
   <div id="contacto">
   <h1>CONTACTO</h1>
 
+  <div class="formulario">
   <form id="form">
     <div class="field">
       <label for="from_name">Nombre</label>
@@ -58,7 +65,7 @@
     </div>
     <div class="field">
       <label for="email_id">Mail</label>
-      <input type="text" name="email_id" id="email_id">
+      <input type="text"name="email_id" id="email_id">
     </div>
      <div class="field">
       <label for="message">Mensaje</label>
@@ -67,7 +74,7 @@
   
     <input type="submit" id="button" value="Enviar" >
   </form>
-  
+</div>
 
 
   </div>
