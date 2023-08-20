@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,16 +11,28 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="./public/css/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</head>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
+  
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+  emailjs.init('AtjTIlKmN_tRF0sL1')
+  </script>
+
+</head>
 <body>
 
   <header>
-    <h1>TIENDAa</h1>
+    <h1>TIENDA JS</h1>
+    <a href="./index.html">TIENDA</a>
+    <a href="#contacto">CONTACTO</a>
     <button id="cesta-carrito"><i class="fas fa-shopping-cart"></i><span id="contador-carrito">0</span></button>
   </header>
-
+  <h1>TIENDA</h1>
   <main id="producto-contenedor">
+    
 
   </main>
 
@@ -33,9 +44,32 @@
 
       </div>
       <p class="precioProducto">Precio total: $<span id="precio-total"></span></p>
-      <a button id="btn-finalizar-compra" class="btn waves-effect waves-light" href="http://localhost:5173/">Finalizar Compra</button></a>
 
     </div>
+  </div>
+
+  <div id="contacto">
+  <h1>CONTACTO</h1>
+
+  <form id="form">
+    <div class="field">
+      <label for="from_name">Nombre</label>
+      <input type="text" name="from_name" id="from_name">
+    </div>
+    <div class="field">
+      <label for="email_id">Mail</label>
+      <input type="text" name="email_id" id="email_id">
+    </div>
+     <div class="field">
+      <label for="message">Mensaje</label>
+      <input type="text" name="message" id="message">
+    </div>
+  
+    <input type="submit" id="button" value="Enviar" >
+  </form>
+  
+
+
   </div>
 
   <script src="./data/stock.js"></script>
@@ -43,6 +77,7 @@
   <script src="./js/cart.js"></script>
   <script src="./js/home.js"></script>
   <script src="./js/index.js"></script>
+  <script src="./app.js"></script>
   <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
 </body>
 
