@@ -52,7 +52,7 @@ header img
 {
   margin-top: 45px;
   margin-left: 10px;
-  width: 190px;
+  width: 180px;
   height: 150px;
 }
 
@@ -72,7 +72,7 @@ header img
 main
 {
   display: grid;
-  grid-template-columns: repeat(3, 500px);
+  grid-template-columns: repeat(3, 450px);
   align-items: center;
 }
 
@@ -256,7 +256,7 @@ select {
 
 .field {
   margin-bottom: 10px;
-  width: 900px;
+  width: 800px;
   font-style: strong;
 }
 
